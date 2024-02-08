@@ -1,0 +1,39 @@
+ * {
+   background-color: black;
+   color: aliceblue;
+ }
+
+ .comp {
+   display: flex;
+   flex-wrap: wrap;
+   background-color: rgb(81, 78, 78);
+ }
+
+ .recipe {
+   margin: 0% 0% 0% 10%;
+   font-size: 1.25rem;
+   color: #fefcfb;
+   font-family: cursive;
+ }
+
+ .food {
+   height: 350px;
+   width: 350px;
+   margin: 1rem 3.5rem 3.5rem 3.5rem;
+   position: relative;
+   border-radius: 12px;
+   background-color: rgba(255, 254, 254, 0.146);
+ }
+
+ .food-name {
+   margin: 0% 0% 0% 10%;
+   font-size: 1.25rem;
+   color: #fefcfb;
+   font-family: cursive;
+ }
+
+ .food-img {
+   margin: 0 0 0 1rem;
+   width: '100px';
+   height: 'auto'
+ }
