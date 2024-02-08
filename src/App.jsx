@@ -3,7 +3,6 @@ import React,{ useState } from 'react'
 import DishCard from "./DishCard";
 import './DishCard.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
 function App() {
   const [ loading, setLoading ] = useState( false );
   const [ dish, setdish ] = useState( [] );
